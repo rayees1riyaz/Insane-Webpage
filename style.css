@@ -1,0 +1,615 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  background-color: black;
+  color: whitesmoke;
+  width: 100%;
+  height: 3.5rem;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 17px;
+}
+.container-1 {
+  background-color: #d1e3ff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+}
+.logo {
+  color: rgb(3, 85, 204);
+}
+.links a {
+  text-decoration: none;
+  color: black;
+  margin-left: 40px;
+  font-size: bold;
+}
+.links a:hover {
+  color: rgb(3, 85, 204);
+}
+.lik a {
+  color: rgb(3, 85, 204);
+  font-size: bold;
+}
+.container-2 {
+  background-color: #d1e3ff;
+
+  width: 100%;
+  position: relative;
+}
+.tbt {
+  display: flex;
+  margin: auto;
+  width: 1260px;
+  justify-content: space-between;
+}
+.img-0 img {
+  margin-right: 2rem;
+  width: 34rem;
+}
+.tbt {
+  margin-bottom: -1rem;
+}
+.tbt .text h3 {
+  margin-top: 9rem;
+  font-weight: bold;
+  font-size: 3rem;
+  color: rgb(3, 85, 204);
+  line-height: 3.5rem;
+  margin-left: 5rem;
+}
+
+.par p {
+  margin-left: 13.1rem;
+  position: absolute;
+  bottom: 23rem;
+  line-height: 1.4rem;
+}
+.btn button {
+  margin-left: 13.1rem;
+  position: absolute;
+  bottom: 18rem;
+  width: 10rem;
+  height: 40px;
+  border: none;
+  border-radius: 4px;
+  background-color: orange;
+  color: whitesmoke;
+  font-size: large;
+}
+.btn button:hover {
+  background-color: #d1e3ff;
+  border: 1px solid orange;
+  color: orange;
+  cursor: pointer;
+  transition: 0.4s all;
+}
+.container-3 {
+  width: 1260px;
+  margin: 6rem auto;
+}
+.images {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  bottom: 12.5rem;
+}
+.container-3 .img-1 {
+  background-color: white;
+  width: 24rem;
+  height: 14rem;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  text-align: center;
+}
+.container-3 .img-1 img {
+  width: 6rem;
+  margin-top: 2.7rem;
+}
+.container-3 .img-1 h3 {
+  padding-top: 22px;
+  letter-spacing: 3px;
+}
+.container-3 .img-1:hover {
+  background-color: orange;
+  color: white;
+  transition: 0.4s all;
+}
+.img-2 {
+  background-color: orange;
+  width: 24rem;
+  height: 14rem;
+  text-align: center;
+  color: white;
+}
+.img-2 img {
+  width: 6rem;
+  margin-top: 2.7rem;
+}
+.img-2 h3 {
+  padding-top: 22px;
+  letter-spacing: 3px;
+  color: white;
+}
+/* about page */
+.container-10 {
+  width: 1260px;
+  margin: 10px auto;
+}
+.img-12 img {
+  margin-top: 9.5rem;
+}
+.text-10 {
+  margin-top: 17rem;
+}
+/*  */
+.about {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.text-1 h1 {
+  position: absolute;
+  top: 8rem;
+}
+
+.parg {
+  position: relative;
+}
+.parg p {
+  line-height: 1.5rem;
+  position: absolute;
+  bottom: 12rem;
+}
+.btn-1 button {
+  margin-top: 18px;
+  width: 10rem;
+  height: 40px;
+  border: none;
+  background-color: rgb(3, 85, 204);
+  color: white;
+  position: absolute;
+  bottom: 8rem;
+}
+.btn-1 button:hover {
+  background-color: white;
+  border: 1px solid rgb(3, 85, 204);
+  color: rgb(3, 85, 204);
+  cursor: pointer;
+  transition: 0.4s all;
+}
+.container-4 {
+  background-color: #d1e3ff;
+  width: 100%;
+  justify-content: space-between;
+}
+.services {
+  width: 1220px;
+  margin: 6rem auto;
+  height: 50rem;
+  display: flex;
+
+  align-items: center;
+}
+.ser img {
+  width: 37rem;
+}
+.tt {
+  margin-bottom: 1rem;
+}
+.tet h1 {
+  color: rgb(3, 85, 204);
+  line-height: 2.5rem;
+}
+.tt .paree {
+  margin-top: 1.6rem;
+  line-height: 1.5rem;
+}
+.tt .btn-2 button {
+  margin-top: 2.8rem;
+  height: 45px;
+  width: 11rem;
+  border: none;
+  background-color: orange;
+  color: white;
+}
+.btn-2 button:hover {
+  background-color: #d1e3ff;
+  border: 1px solid orange;
+  color: orange;
+  cursor: pointer;
+  transition: 0.4s all;
+}
+.container-5 {
+  width: 1220px;
+  margin: 2rem auto;
+}
+.t-1 h1 {
+  text-align: center;
+  letter-spacing: 2px;
+}
+.box {
+  display: flex;
+  justify-content: space-between;
+}
+.boxes {
+  width: 24rem;
+  height: 16rem;
+  align-items: center;
+  text-align: center;
+  padding: 28px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  margin-top: 4rem;
+}
+
+.boxes .imgs img {
+  width: 5rem;
+}
+.boxes .tett h2 {
+  padding-top: 10px;
+}
+.boxes .p p {
+  padding-top: 10px;
+}
+.boxes:hover {
+  background-color: orange;
+  color: white;
+  cursor: pointer;
+  transition: 0.4s all;
+}
+.btn-3 {
+  text-align: center;
+  align-items: center;
+}
+.btn-3 button {
+  margin-top: 2rem;
+  width: 13rem;
+  height: 50px;
+  border: none;
+  background-color: rgb(3, 8, 204);
+  color: white;
+}
+.btn-3 button:hover {
+  background-color: white;
+  border: 1px solid rgb(3, 8, 204);
+  color: rgb(3, 8, 204);
+  cursor: pointer;
+  transition: 0.4s all;
+}
+.tex-1 {
+  text-align: center;
+  margin-top: 10rem;
+  letter-spacing: 2px;
+}
+.ray {
+  display: flex;
+  justify-content: space-between;
+}
+.boxes-1 {
+  background-color: white;
+  width: 35rem;
+  height: 19rem;
+  margin-top: 8rem;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.boxs {
+  padding: 20px;
+  display: flex;
+}
+.img- img {
+  border-radius: 50%;
+}
+.text-4 h3 {
+  padding-top: 60px;
+  padding-left: 20px;
+}
+.pa p {
+  line-height: 20px;
+  padding: 20px;
+  display: block;
+}
+.raye {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.tex-2 {
+  margin-top: 10rem;
+}
+.inputs input {
+  display: block;
+  width: 35rem;
+  margin-top: 1.5rem;
+  height: 2.8rem;
+  padding: 20px;
+  border: none;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  outline: none;
+}
+.inputs textarea {
+  margin-top: 25px;
+  width: 35rem;
+  padding: 20px;
+  align-items: center;
+  border: none;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  outline: none;
+}
+.map {
+  margin-top: 1.5rem;
+}
+.btn-4 input {
+  margin-top: 2rem;
+  width: 10rem;
+  height: 50px;
+  border: none;
+  background-color: rgb(3, 85, 204);
+  color: white;
+}
+.btn-4 input:hover {
+  background-color: white;
+  border: 1px solid rgb(3, 85, 204);
+  color: rgb(3, 85, 204);
+  cursor: pointer;
+  transition: 0.4s all;
+}
+.container-7 {
+  width: 100%;
+  background-color: rgb(10, 15, 67);
+  margin-top: 10rem;
+  height: 39rem;
+}
+
+.rayees {
+  color: white;
+  margin: auto;
+  width: 1220px;
+}
+.rr h1 {
+  text-align: center;
+  padding-top: 6rem;
+}
+.logos {
+  width: 900px;
+
+  margin: auto;
+}
+.log {
+  display: flex;
+  justify-content: space-between;
+}
+.logo-1 {
+  background-color: rgb(3, 85, 204);
+  width: 4rem;
+  height: 4rem;
+  margin-top: 5rem;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.imgg i {
+  margin-top: 40%;
+}
+
+.logos .logo-1:hover {
+  background-color: orange;
+  color: white;
+  cursor: pointer;
+  border-radius: 100%;
+  transition: 0.4s all;
+}
+
+.farh {
+  display: flex;
+  color: white;
+
+  margin: 2rem auto;
+  width: 1100px;
+}
+.farh .con {
+  margin-left: 14rem;
+}
+.farh .email {
+  margin-left: 18rem;
+}
+.social-logo .t-1 {
+  margin-top: 5rem;
+  text-align: center;
+}
+.los {
+  background-color: white;
+  width: 9rem;
+  height: 2rem;
+  margin-left: 44%;
+  margin-top: 1rem;
+}
+.loss {
+  display: flex;
+  color: black;
+  text-align: center;
+  justify-content: space-between;
+  padding: 8px;
+}
+.los .loss .icon-1 :hover {
+  color: orange;
+  cursor: pointer;
+  transition: 0.4s all;
+}
+.line {
+  width: 1220px;
+  margin: 4rem auto;
+}
+.t-2 {
+  text-align: center;
+  margin-top: 1.5rem;
+  color: white;
+}
+/* contact page css */
+.container-10 {
+  width: 1260px;
+  margin: auto;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .tbt,
+  .images,
+  .box,
+  .ray,
+  .log {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .img-0 img,
+  .ser img,
+  .container-3 .img-1,
+  .img-2,
+  .boxes,
+  .boxes-1,
+  .inputs input,
+  .inputs textarea {
+    width: 100% !important;
+  }
+
+  .par p,
+  .btn button,
+  .btn-1 button {
+    position: static;
+    margin: 1rem auto;
+    display: block;
+    text-align: center;
+  }
+
+  .nav,
+  .container-1,
+  .about,
+  .services,
+  .farh {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .links a,
+  .lik a {
+    margin: 10px 0;
+    display: block;
+  }
+
+  .farh .con,
+  .farh .email {
+    margin: 0;
+  }
+
+  .logos {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+/* Mobile (up to 767px) */
+@media (max-width: 767px) {
+  .tbt,
+  .images,
+  .box,
+  .ray,
+  .log {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .img-0 img,
+  .ser img,
+  .container-3 .img-1,
+  .img-2,
+  .boxes,
+  .boxes-1,
+  .inputs input,
+  .inputs textarea {
+    width: 100% !important;
+  }
+
+  .par p,
+  .btn button,
+  .btn-1 button {
+    position: static;
+    margin: 1rem auto;
+    display: block;
+    text-align: center;
+  }
+
+  .nav,
+  .container-1,
+  .about,
+  .services,
+  .farh {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .links a,
+  .lik a {
+    margin: 10px 0;
+    display: block;
+  }
+
+  .farh .con,
+  .farh .email {
+    margin: 0;
+  }
+
+  .logos {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .tex-1,
+  .tex-2,
+  .t-1 h1 {
+    font-size: 1.5rem;
+    margin: 1rem;
+  }
+
+  .logo-1 {
+    margin: 1rem auto;
+  }
+}
+
+/* Small desktops/laptops (1025px - 1280px) */
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .container-3,
+  .services,
+  .container-5,
+  .rayees {
+    max-width: 90%;
+    margin: auto;
+  }
+
+  .img-0 img {
+    width: 100%;
+  }
+}
+
+/* Large screens (1281px and up) */
+@media (min-width: 1281px) {
+  .container-3,
+  .services,
+  .container-5,
+  .rayees {
+    max-width: 1260px;
+    margin: auto;
+  }
+}
